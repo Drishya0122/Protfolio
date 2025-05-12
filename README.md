@@ -1,196 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Drishya Kadadas - Portfolio">
-  <meta name="author" content="Drishya Kadadas">
-  <title>Drishya Kadadas - Portfolio</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Drishya Kadadas</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
     body {
-      font-family: 'Roboto', sans-serif;
-      background-color: #f0f2f5;
-      color: #333;
-      line-height: 1.6;
-    }
-    header {
-      background-color: #1f2937;
-      padding: 20px 0;
-      color: #fff;
-    }
-    nav ul {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #f1f5f9;
       display: flex;
       justify-content: center;
-      list-style: none;
-    }
-    nav ul li {
-      margin: 0 15px;
-    }
-    nav ul li a {
-      color: #fff;
-      text-decoration: none;
-      font-size: 18px;
-      transition: color 0.3s;
-    }
-    nav ul li a:hover {
-      color: #38bdf8;
-    }
-    section {
-      padding: 60px 20px;
+      align-items: start;
+      min-height: 100vh;
+      padding: 40px 20px;
+      text-align: center;
     }
     .container {
-      max-width: 1100px;
-      margin: auto;
+      max-width: 800px;
     }
-    h1, h2, h3 {
-      margin-bottom: 20px;
-      font-weight: 700;
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.2em;
     }
-    #home {
-      background: linear-gradient(to right, #2563eb, #1e40af);
-      color: white;
-      text-align: center;
-      padding: 100px 20px;
+    h2 {
+      font-size: 1.1em;
+      font-weight: normal;
+      color: #94a3b8;
+      margin-bottom: 1.5em;
     }
-    .btn {
-      display: inline-block;
-      background: #38bdf8;
-      color: white;
-      padding: 12px 25px;
-      border-radius: 5px;
+    h3 {
+      margin-top: 2em;
+      color: #38bdf8;
+    }
+    p {
+      font-size: 1em;
+      line-height: 1.6;
+      color: #cbd5e1;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 1em;
+    }
+    ul li {
+      background: #1e293b;
+      margin: 6px 0;
+      padding: 10px;
+      border-radius: 6px;
+      color: #e2e8f0;
+    }
+    .links {
+      margin-top: 2em;
+    }
+    .links a {
       text-decoration: none;
+      color: #0ea5e9;
       font-weight: bold;
-      margin-top: 20px;
-      transition: background 0.3s;
+      margin: 0 10px;
+      border: 2px solid #0ea5e9;
+      padding: 8px 16px;
+      border-radius: 6px;
+      transition: background 0.3s, color 0.3s;
     }
-    .btn:hover {
+    .links a:hover {
       background: #0ea5e9;
-    }
-    .project-cards {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: center;
-    }
-    .project-card {
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-      width: 300px;
-    }
-    footer {
-      background-color: #1f2937;
       color: white;
-      text-align: center;
-      padding: 20px 0;
-    }
-    .contact-links li {
-      margin: 10px 0;
-    }
-    .contact-links a {
-      color: #2563eb;
-      text-decoration: none;
-    }
-    .contact-links a:hover {
-      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-
-<header>
-  <nav>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-</header>
-
-<section id="home">
   <div class="container">
     <h1>Drishya Kadadas</h1>
-    <p>Aspiring Junior ICT Engineer | IoT & Robotics Enthusiast</p>
-    <a href="#about" class="btn">Explore More</a>
-  </div>
-</section>
+    <h2>IoT & Robotics Engineer | Embedded Systems | Web Developer</h2>
 
-<section id="about">
-  <div class="container">
-    <h2>About Me</h2>
-    <p>I am currently pursuing a Diploma in Information and Communication Technology at Government Polytechnic, Gandhinagar (7.63 CGPA). With hands-on experience as an intern at Tinkering India and Eduneuro, I specialize in IoT, Robotics, and EdTech development.</p>
-    <p>My passion lies in embedded systems, web development, and using technology to create impactful solutions. I enjoy facilitating workshops and engaging with young innovators.</p>
-  </div>
-</section>
+    <div class="about">
+      <h3>About Me</h3>
+      <p>
+        I'm a passionate tech enthusiast currently pursuing a diploma in Information and Communication Technology at Government Polytechnic, Gandhinagar. My journey in tech revolves around embedded systems, IoT, robotics, and web development.
+      </p>
+      <p>
+        I've worked with organizations like Tinkering India and Eduneuro, where I developed hands-on STEM workshops, built IoT-based systems, and helped create engaging digital learning platforms. I'm always eager to apply my knowledge of systems and innovation to solve real-world problems.
+      </p>
+    </div>
 
-<section id="skills">
-  <div class="container">
-    <h2>Skills</h2>
-    <ul>
-      <li>Programming: C, C++, HTML, CSS, Embedded C</li>
-      <li>Web Tools: WordPress, Git</li>
-      <li>Soft Skills: Communication, Teamwork, Public Speaking, Problem Solving</li>
-      <li>Specialties: IoT, Robotics, Troubleshooting, Creativity & Innovation</li>
-    </ul>
-  </div>
-</section>
+    <div class="skills">
+      <h3>Skills</h3>
+      <ul>
+        <li>Programming: C, C++, HTML, CSS, Embedded C</li>
+        <li>WordPress Development</li>
+        <li>Git & Version Control</li>
+        <li>Communication & Public Speaking</li>
+        <li>Teamwork & Collaboration</li>
+        <li>Problem Solving & Critical Thinking</li>
+        <li>Creativity & Innovation</li>
+        <li>Troubleshooting & Technical Support</li>
+      </ul>
+    </div>
 
-<section id="projects">
-  <div class="container">
-    <h2>Projects</h2>
-    <div class="project-cards">
-      <div class="project-card">
-        <h3>IoT-Based Air Pollution Monitoring</h3>
-        <p>Developed a real-time environmental monitoring system using sensors and IoT technologies to track and report air quality.</p>
-        <a href="#" class="btn">View Project</a>
-      </div>
-      <div class="project-card">
-        <h3>Tinkering India Website</h3>
-        <p>Designed and implemented a news page and content for the Tinkering India site using WordPress and GitHub.</p>
-        <a href="#" class="btn">Visit Site</a>
-      </div>
+    <div class="links">
+      <a href="https://github.com/Drishya0122" target="_blank">GitHub</a>
+      <a href="www.linkedin.com/in/drishya-kadadas" target="_blank">LinkedIn</a>
+      <a href="file:///C:/Users/Dell/Downloads/Drishya_CV.pdf" target="_blank">Resume</a>
     </div>
   </div>
-</section>
-
-<section id="contact">
-  <div class="container">
-    <h2>Contact Me</h2>
-    <p>Want to collaborate or connect? Reach out below.</p>
-    <ul class="contact-links">
-      <li><i class="fas fa-envelope"></i> <a href="mailto:drishyakadadas@gmail.com">drishyakadadas@gmail.com</a></li>
-      <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/drishya-kadadas">LinkedIn</a></li>
-      <li><i class="fas fa-map-marker-alt"></i> Ahmedabad, Gujarat, India</li>
-      <li><i class="fas fa-phone"></i> +91 8866544016</li>
-    </ul>
-  </div>
-</section>
-
-<footer>
-  <div class="container">
-    <p>&copy; 2025 Drishya Kadadas | Designed with passion</p>
-  </div>
-</footer>
-
-<script>
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-      e.preventDefault();
-      document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
-    });
-  });
-</script>
-
 </body>
 </html>
