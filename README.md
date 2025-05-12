@@ -9,7 +9,7 @@
       margin: 0;
       font-family: Arial, sans-serif;
       background:rgb(255, 255, 255);
-      color: #f1f5f9;
+      color:rgb(0, 6, 12);
       display: flex;
       justify-content: center;
       align-items: start;
@@ -27,7 +27,7 @@
     h2 {
       font-size: 1.1em;
       font-weight: normal;
-      color: #94a3b8;
+      color:rgb(0, 5, 13);
       margin-bottom: 1.5em;
     }
     h3 {
@@ -37,7 +37,7 @@
     p {
       font-size: 1em;
       line-height: 1.6;
-      color: #cbd5e1;
+      color:rgb(0, 0, 0);
     }
     ul {
       list-style: none;
@@ -49,7 +49,7 @@
       margin: 6px 0;
       padding: 10px;
       border-radius: 6px;
-      color: #e2e8f0;
+      color:rgb(0, 3, 6);
     }
     .links {
       margin-top: 2em;
