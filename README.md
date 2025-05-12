@@ -4,12 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Drishya Kadadas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background:rgb(255, 255, 255);
-      color:rgb(0, 6, 12);
+      font-family: 'Roboto', sans-serif;
+      background: #ffffff;
+      color: #00060c;
       display: flex;
       justify-content: center;
       align-items: start;
@@ -18,26 +19,42 @@
       text-align: center;
     }
     .container {
-      max-width: 800px;
+      max-width: 900px;
+      background: #f8fafc;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .profile {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #0ea5e9;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
     h1 {
       font-size: 2.5em;
       margin-bottom: 0.2em;
     }
     h2 {
-      font-size: 1.1em;
+      font-size: 1.2em;
       font-weight: normal;
-      color:rgb(0, 5, 13);
+      color: #1e293b;
       margin-bottom: 1.5em;
     }
     h3 {
       margin-top: 2em;
-      color: #38bdf8;
+      color: #0ea5e9;
+      font-size: 1.4em;
     }
     p {
       font-size: 1em;
       line-height: 1.6;
-      color:rgb(0, 0, 0);
+      color: #1e293b;
+      text-align: justify;
+      margin-bottom: 1em;
     }
     ul {
       list-style: none;
@@ -45,11 +62,13 @@
       margin-top: 1em;
     }
     ul li {
-      background:rgb(255, 255, 255);
+      background: #e2e8f0;
       margin: 6px 0;
       padding: 10px;
       border-radius: 6px;
-      color:rgb(0, 3, 6);
+      color: #0f172a;
+      font-weight: 500;
+      text-align: justify;
     }
     .links {
       margin-top: 2em;
@@ -60,18 +79,20 @@
       font-weight: bold;
       margin: 0 10px;
       border: 2px solid #0ea5e9;
-      padding: 8px 16px;
-      border-radius: 6px;
-      transition: background 0.3s, color 0.3s;
+      padding: 10px 18px;
+      border-radius: 8px;
+      transition: all 0.3s ease;
     }
     .links a:hover {
       background: #0ea5e9;
       color: white;
+      box-shadow: 0 2px 10px rgba(14, 165, 233, 0.4);
     }
   </style>
 </head>
 <body>
   <div class="container">
+    <img src="Drishya0122/Protfolio/additional/drishya oic.jpg" alt="Drishya Kadadas" class="profile" />
     <h1>Drishya Kadadas</h1>
     <h2>IoT & Robotics Engineer | Embedded Systems | Web Developer</h2>
 
@@ -102,7 +123,7 @@
     <div class="links">
       <a href="https://github.com/Drishya0122" target="_blank">GitHub</a>
       <a href="www.linkedin.com/in/drishya-kadadas" target="_blank">LinkedIn</a>
-      <a href="file:///C:/Users/Dell/Downloads/Drishya_CV.pdf" target="_blank">Resume</a>
+      <a href="Drishya_CV.pdf" target="_blank">Resume</a>
     </div>
   </div>
 </body>
