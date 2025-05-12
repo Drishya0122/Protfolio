@@ -92,7 +92,7 @@
 </head>
 <body>
   <div class="container">
-    <img src="Drishya0122/Protfolio/additional/drishya oic.jpg" alt="Drishya Kadadas" class="profile" />
+    <img src="drishya_pic.jpg" alt="Drishya Kadadas" class="profile" />
     <h1>Drishya Kadadas</h1>
     <h2>IoT & Robotics Engineer | Embedded Systems | Web Developer</h2>
 
