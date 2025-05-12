@@ -8,7 +8,7 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: #0f172a;
+      background:rgb(255, 255, 255);
       color: #f1f5f9;
       display: flex;
       justify-content: center;
@@ -45,7 +45,7 @@
       margin-top: 1em;
     }
     ul li {
-      background: #1e293b;
+      background:rgb(255, 255, 255);
       margin: 6px 0;
       padding: 10px;
       border-radius: 6px;
